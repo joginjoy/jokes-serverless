@@ -1,0 +1,17 @@
+{
+  "name": "jokes-serverless",
+  "version": "1.0.0",
+  "description": "Serverless lambda functions acting as a backend to hit the 3rd party api",
+  "main": "index.js",
+  "scripts": {
+    "serve-lambda": "netlify-lambda serve functions",
+    "build-lambda": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "Jogin Joy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "netlify-lambda": "^2.0.1"
+  }
+}
