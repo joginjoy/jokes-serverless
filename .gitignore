@@ -47,4 +47,5 @@ Thumbs.db
 
 
 # project specific
-/functions
+/lambda
+/.env
